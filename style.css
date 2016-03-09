@@ -1,0 +1,435 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Roboto Slab;
+    src: url(RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(SourceSansPro-Regular.otf);
+}
+
+
+/**************header area***************/
+
+.mrg_void {
+    padding: 0;
+}
+
+.pad_void {
+    padding: 0;
+}
+
+section.header {
+    padding-bottom: 8px;
+}
+
+.logo_txt>h3 {
+    font-family: Roboto Slab;
+    font-size: 33.46px;
+    font-weight: bold;
+    color: #1599CA;
+}
+
+.logo_txt>h5 {
+    font-family: Roboto Slab;
+    font-size: 20.08px;
+    color: #2C2C2C;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.logo_txt>p {
+    font-family: Roboto Slab;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #6B6C6D;
+}
+
+.logo_contact>h6 {
+    font-family: Roboto Slab;
+    font-size: 18px;
+    color: #1A1A1A;
+    margin-bottom: 0;
+}
+
+.logo_contact>h1 {
+    font-family: Roboto Slab;
+    font-size: 44px;
+    color: #D12B27;
+    margin-top: 0;
+}
+
+.logo_img {
+    float: left;
+    padding-right: 18px;
+}
+
+.logo_left_area {
+    position: relative;
+}
+
+.logo_right_area {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+
+/**************background area*************/
+
+.background {
+    background-image: url(bg.png);
+}
+
+.bg_txt {
+    position: relative;
+    padding-top: 43px;
+}
+
+.bg_txt > img {
+    position: absolute;
+    right: 23%;
+    top: 131px;
+}
+
+.bg_txt>h1 {
+    font-family: Roboto Slab;
+    font-size: 32.62px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.bg_txt>h3 {
+    font-family: Roboto Slab;
+    font-size: 31.87px;
+    color: #fff;
+}
+
+.bg_txt>img {}
+
+.bg_txt>h5 {
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fff;
+    padding-top: 18px;
+}
+
+ul {
+    padding-left: 0;
+    padding-top: 16px;
+    padding-bottom: 70px;
+}
+
+.list img {
+    padding-right: 2%;
+}
+
+li {
+    list-style: outside none none;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+li span {
+    color: #1599ca;
+}
+
+.bucket {
+    position: absolute;
+    right: -33%;
+    top: 29%;
+    z-index: 1;
+}
+
+.form_header {
+    background-color: #2087b0;
+    padding-bottom: 15px;
+    padding-left: 27px;
+    padding-top: 8px;
+}
+
+.form_header>h4 {
+    font-family: Roboto Slab;
+    font-size: 17.56px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.form_header>h2 {
+    font-family: Roboto Slab;
+    font-size: 29.78px;
+    color: #fff;
+    margin-top: 0;
+}
+
+.col-sm-6.pad_void2 {
+    padding-left: 175px;
+    padding-right: 0;
+    padding-top: 43px;
+}
+
+.form_area {
+    background-color: #fff;
+    position: relative;
+}
+
+.form1 {
+    padding: 19px 29px 11px 26px;
+}
+
+.form2 {
+    padding: 0px 29px 11px 26px;
+}
+
+.form3 {
+    padding: 0px 29px 11px 26px;
+}
+
+.form4 {
+    padding: 0px 29px 11px 26px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.form5>.form-control {
+    height: 75px;
+}
+
+.form5 {
+    padding: 0 29px 36px 28px;
+}
+
+.form_btn {
+    position: absolute;
+    right: 137px;
+    top: 287px;
+    z-index: 1;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+    border-radius: 0;
+    font-family: Source Sans pro;
+    font-size: 24px;
+    line-height: 1.33333;
+    padding: 19px 35px;
+}
+
+.btn-danger {
+    background-color: #d12b27;
+    color: #fff;
+    border: 0;
+}
+
+.btn-warning {
+    background-color: #ab211f;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    padding: 22px 42px;
+}
+
+.btn2 {
+    position: absolute;
+    right: -108px;
+    top: 0;
+}
+
+
+/****************service area***************/
+
+.service {
+    background-color: #F1F1F1;
+    position: relative;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.serv > img {
+    padding-top: 69px;
+    width: 100%;
+}
+
+.serv1>h2 {
+    font-family: Roboto Slab;
+    font-size: 27px;
+    font-weight: bold;
+    color: #1599CA;
+    padding-bottom: 9px;
+}
+
+.car {
+    font-family: Roboto Slab;
+    font-size: 15px;
+    color: #606161;
+    font-weight: lighter;
+}
+
+.car>img {
+    padding-right: 11px;
+}
+
+.serv1 > img {
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.serv > img {
+    padding-bottom: 32px;
+}
+
+.serv_txt > h3 {
+    font-family: Roboto Slab;
+    font-size: 27.47px;
+    font-weight: bold;
+    color: #131619;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+
+/************crane area***************/
+
+.crane {
+    background-color: #F1F1F1;
+}
+
+.crane_dtls {
+    background-color: #03141C;
+    padding: 9px;
+}
+
+.crane_dtls > img {
+    float: left;
+    padding-left: 6%;
+    padding-top: 5px;
+}
+
+.crane_dtls > h3 {
+    color: #fff;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    padding-bottom: 11px;
+    padding-left: 15%;
+}
+
+.col-md-12.crn_pad {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+/************footer area*************/
+
+.footer {
+    background-color: #F1F1F1;
+}
+
+.ftr_pad {
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.footer_txt_lft > h5 {
+    color: #131619;
+    font-family: Roboto Slab;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 39px;
+    padding-top: 4px;
+}
+
+.footer_txt_rht > h6 {
+    color: #717273;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 16px;
+}
+
+.footer_txt_rht > h3 {
+    color: #1599ca;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.footer_txt_rht > p {
+    color: #717273;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+    border-radius: 0;
+    font-family: sOURce Sans Pro;
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 16px 36px;
+}
+
+.btn-primary {
+    background-color: #c9302c;
+    border-color: #c9302c;
+    color: #fff;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+    border-radius: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 21px 42px;
+}
+
+.btn-info {
+    background-color: #ab211f;
+    border-color: #ab211f;
+    color: #fff;
+}
+
+.footer_btn2 {
+    padding-bottom: 22px;
+}
+
+.footer_btn {
+    float: left;
+}
+
+
+/***********copyright area*************/
+
+.copyright {
+    background-color: #F1F1F1;
+}
+
+.copy {
+    background-color: #03141c;
+    padding: 10px 4px 2px 16px;
+}
+
+.copy>p {
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.col-md-12.cp-lft {
+    padding: 0;
+}

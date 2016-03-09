@@ -1,0 +1,262 @@
+@media (min-width:992px) and (max-width: 1199px) {
+    .btn-group-lg > .btn,
+    .btn-lg {
+        padding: 19px 7px;
+    }
+    .btn-warning {
+        padding: 22px 21px;
+    }
+    .btn1 {
+        padding-left: 23%;
+    }
+    .form5 {
+        padding: 0 29px 72px 28px;
+    }
+    .bucket {
+        right: -40%;
+    }
+    .btn-group-sm > .btn,
+    .btn-sm {
+        padding: 16px 22px;
+    }
+    .btn-group-xs > .btn,
+    .btn-xs {
+        padding: 21px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .slicknav_menu {
+        display: none;
+    }
+    .logo_txt > h3 {
+        font-size: 28.46px;
+    }
+    .logo_txt > h5 {
+        color: #2c2c2c;
+        font-family: Roboto Slab;
+        font-size: 16.08px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .logo_txt > p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .logo_contact > h1 {
+        font-size: 33px;
+    }
+    .logo_contact > h6 {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .bg_txt > h1 {
+        font-size: 20.62px;
+    }
+    .bg_txt > h3 {
+        font-size: 17.87px;
+    }
+    .bg_txt > h5 {
+        font-size: 14px;
+    }
+    li {
+        font-size: 11px;
+    }
+    .form_header > h4 {
+        font-size: 14.56px;
+    }
+    .form_header > h2 {
+        font-size: 21.78px;
+    }
+    .col-sm-6.pad_void2 {
+        padding-left: 136px;
+    }
+    .bucket {
+        right: -44%;
+    }
+    .list img {
+        padding-right: 0;
+    }
+    .bg_txt > img {
+        top: 99px;
+    }
+    .serv1 > h2 {
+        font-size: 20px;
+    }
+    .serv > img {
+        padding-top: 62px;
+    }
+    .serv {
+        padding-bottom: 20px;
+    }
+    .serv_txt > h3 {
+        font-size: 24.47px;
+    }
+    .crane_dtls > h3 {
+        font-size: 24px;
+    }
+    .footer_txt_lft > h5 {
+        font-size: 16px;
+    }
+    .footer_txt_rht > h3 {
+        font-size: 25px;
+    }
+    .copy > p {
+        font-size: 15px;
+    }
+    .btn-group-sm > .btn,
+    .btn-sm {
+        border-bottom: 2px solid #c9302c;
+        font-size: 21px;
+        padding: 16px 4px;
+    }
+    .btn-group-xs > .btn,
+    .btn-xs {
+        padding: 19px 15px;
+    }
+    .btn1 {
+        padding-left: 41%;
+    }
+    .btn-group-lg > .btn,
+    .btn-lg {
+        font-size: 15px;
+        padding: 19px 10px;
+    }
+    .btn-warning {
+        padding: 16px;
+    }
+    .footer_btn {
+        float: left;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .logo_txt > h3 {
+        font-size: 26.46px;
+    }
+    .logo_txt > h5 {
+        font-size: 17.08px;
+    }
+    .logo_txt > p {
+        font-size: 13px;
+        padding-bottom: 65px;
+    }
+    .logo_contact > h6 {
+        font-size: 16px;
+    }
+    .logo_contact > h1 {
+        font-size: 30px;
+    }
+    .logo_right_area {
+        left: 69px;
+        position: absolute;
+        right: 0;
+        top: 93px;
+    }
+    .bg_txt > h1 {
+        font-size: 17.62px;
+        text-align: center;
+    }
+    .bg_txt > h3 {
+        font-size: 18.87px;
+        text-align: center;
+    }
+    .bg_txt {
+        padding-top: 0;
+    }
+    .bg_txt > h5 {
+        font-size: 16px;
+        padding-top: 8px;
+        text-align: center;
+    }
+    .bucket {
+        text-align: center;
+        position: static!important;
+    }
+    ul {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    li {
+        font-size: 13px;
+    }
+    .bg_txt > img {
+        position: absolute;
+        right: 63%;
+        top: 287px;
+    }
+    .col-sm-6.pad_void2 {
+        padding-top: 43px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .form_btn {
+        padding-bottom: 31px;
+        position: static;
+        text-align: center;
+    }
+    .btn-group-lg > .btn,
+    .btn-lg {
+        font-size: 19px;
+        padding: 13px 9px;
+    }
+    .btn-warning {
+        padding: 13px 10px
+    }
+    .btn1 {
+        display: inline;
+        margin-right: -4px;
+    }
+    .btn2 {
+        position: static;
+        display: inline;
+    }
+    .serv1 > h2 {
+        font-size: 23px;
+        padding-top: 21px;
+        text-align: center;
+    }
+    .serv_txt > h3 {
+        font-size: 19.47px;
+    }
+    .crane_dtls > h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer_txt_lft > h5 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer_txt_rht {
+        text-align: center;
+    }
+    .btn-group-xs > .btn,
+    .btn-xs {
+        font-size: 12px;
+        padding: 7px 9px;
+    }
+    .btn-group-sm > .btn,
+    .btn-sm {
+        font-size: 13px;
+        padding: 10px 9px;
+        border: 1px solid #c9302c;
+    }
+    .copy > p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .footer_btn_grp {
+        text-align: center;
+        padding-bottom: 22px;
+    }
+    .footer_btn {
+        text-align: center;
+        float: none;
+        display: inline;
+        margin-right: -4px;
+    }
+    .footer_btn2 {
+        text-align: center;
+        display: inline;
+    }
+}
