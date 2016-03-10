@@ -1,3 +1,5 @@
+/**===========================================================COPYRIGHT RAHUL RAY================================**/
+
 @media (min-width:992px) and (max-width: 1199px) {
     .form1 {
         padding: 19px 29px 16px 26px;
@@ -5,17 +7,11 @@
     .form2 {
         padding: 0 29px 16px 26px;
     }
-<<<<<<< HEAD
     .form3 {
         padding: 0 29px 16px 26px;
     }
     .form4 {
         padding: 0 29px 16px 26px;
-=======
-    .btn1 {
-        padding-left: 23%;
-         display: inline;
->>>>>>> origin/gh-pages
     }
     .form5 {
         padding: 0 29px 54px 28px;
@@ -232,13 +228,6 @@
     .btn-xs {
         padding: 19px 15px;
     }
-<<<<<<< HEAD
-=======
-    .btn1 {
-        padding-left: 41%;
-         display: inline;
-    }
->>>>>>> origin/gh-pages
     .btn-group-lg > .btn,
     .btn-lg {
         font-size: 15px;
