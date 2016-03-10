@@ -16,22 +16,32 @@ body {
 
 /**************header area***************/
 
+.logo_pad {
+    padding: 0 7.5%;
+}
+
+.logo_contact {
+    padding-right: 45px;
+}
+
 .mrg_void {
     padding: 0;
 }
 
 .pad_void {
     padding: 0;
+    width: 56%;
 }
 
 section.header {
-    padding-bottom: 8px;
+    padding-bottom: 5px;
+    background-color: #F1F1F1;
 }
 
 .logo_txt>h3 {
     font-family: Roboto Slab;
     font-size: 33.46px;
-    font-weight: bold;
+    font-weight: 800;
     color: #1599CA;
 }
 
@@ -39,13 +49,11 @@ section.header {
     font-family: Roboto Slab;
     font-size: 20.08px;
     color: #2C2C2C;
-    margin-bottom: 0;
-    margin-top: 0;
 }
 
 .logo_txt>p {
     font-family: Roboto Slab;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     color: #6B6C6D;
 }
@@ -62,6 +70,7 @@ section.header {
     font-size: 44px;
     color: #D12B27;
     margin-top: 0;
+    font-weight: 800;
 }
 
 .logo_img {
@@ -76,7 +85,7 @@ section.header {
 .logo_right_area {
     position: absolute;
     right: 0;
-    top: 4px;
+    top: -4px;
 }
 
 
@@ -84,6 +93,9 @@ section.header {
 
 .background {
     background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg_txt {
@@ -123,7 +135,7 @@ section.header {
 ul {
     padding-left: 0;
     padding-top: 16px;
-    padding-bottom: 70px;
+    padding-bottom: 34px;
 }
 
 .list img {
@@ -134,8 +146,9 @@ li {
     list-style: outside none none;
     font-family: Roboto Slab;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 300;
     color: #fff;
+    padding-bottom: 9px;
 }
 
 li span {
@@ -144,9 +157,13 @@ li span {
 
 .bucket {
     position: absolute;
-    right: -33%;
-    top: 29%;
+    right: -17%;
+    top: 40%;
     z-index: 1;
+}
+
+.bucket > img {
+    width: 95%;
 }
 
 .form_header {
@@ -171,9 +188,10 @@ li span {
 }
 
 .col-sm-6.pad_void2 {
-    padding-left: 175px;
+    padding-left: 59px;
     padding-right: 0;
     padding-top: 43px;
+    width: 44%;
 }
 
 .form_area {
@@ -182,19 +200,19 @@ li span {
 }
 
 .form1 {
-    padding: 19px 29px 11px 26px;
+    padding: 19px 29px 16px 26px;
 }
 
 .form2 {
-    padding: 0px 29px 11px 26px;
+    padding: 0px 29px 16px 26px;
 }
 
 .form3 {
-    padding: 0px 29px 11px 26px;
+    padding: 0px 29px 16px 26px;
 }
 
 .form4 {
-    padding: 0px 29px 11px 26px;
+    padding: 0px 29px 16px 26px;
 }
 
 .form-control {
@@ -206,14 +224,18 @@ li span {
 }
 
 .form5 {
-    padding: 0 29px 36px 28px;
+    padding: 0 29px 52px 28px;
 }
 
 .form_btn {
     position: absolute;
-    right: 137px;
-    top: 287px;
+    right: 8%;
+    top: 91%;
     z-index: 1;
+}
+
+.btn1 > input {
+    background-image: url("btn.png");
 }
 
 .btn-group-lg > .btn,
@@ -222,7 +244,7 @@ li span {
     font-family: Source Sans pro;
     font-size: 24px;
     line-height: 1.33333;
-    padding: 19px 35px;
+    padding: 19px 31px;
 }
 
 .btn-danger {
@@ -236,13 +258,30 @@ li span {
     border: 0 none;
     border-radius: 0;
     color: #fff;
-    padding: 22px 42px;
+    padding: 22px 35px;
+}
+
+.btn1 > input {
+    background-image: url("btn.png");
+    background-size: 100% 100%;
+    border: 0 none;
+    padding-bottom: 42px;
+    padding-left: 164px;
+    padding-right: 164px;
+}
+
+.btn1 {
+    text-align: center;
 }
 
 .btn2 {
     position: absolute;
     right: -108px;
     top: 0;
+}
+
+.white_pad {
+    padding: 0 90px;
 }
 
 
@@ -275,6 +314,7 @@ li span {
     font-size: 15px;
     color: #606161;
     font-weight: lighter;
+    padding-bottom: 11px;
 }
 
 .car>img {
@@ -296,7 +336,7 @@ li span {
     font-weight: bold;
     color: #131619;
     text-align: center;
-    padding-bottom: 22px;
+    padding-bottom: 5px;
 }
 
 
@@ -313,7 +353,7 @@ li span {
 
 .crane_dtls > img {
     float: left;
-    padding-left: 6%;
+    padding-left: 5%;
     padding-top: 5px;
 }
 
@@ -328,7 +368,7 @@ li span {
 .col-md-12.crn_pad {
     margin-bottom: 20px;
     margin-top: 20px;
-    padding: 0;
+    padding: 0 6.4%;
 }
 
 
@@ -367,40 +407,18 @@ li span {
     font-weight: lighter;
 }
 
+.footer_btn > input {
+    background-image: url("btn.png");
+    background-size: 100% 100%;
+    border: 0 none;
+    padding: 20px 155px;
+}
+
 .footer_txt_rht > p {
     color: #717273;
     font-family: Roboto Slab;
     font-size: 16px;
     font-weight: lighter;
-}
-
-.btn-group-sm > .btn,
-.btn-sm {
-    border-radius: 0;
-    font-family: sOURce Sans Pro;
-    font-size: 24px;
-    line-height: 1.5;
-    padding: 16px 36px;
-}
-
-.btn-primary {
-    background-color: #c9302c;
-    border-color: #c9302c;
-    color: #fff;
-}
-
-.btn-group-xs > .btn,
-.btn-xs {
-    border-radius: 0;
-    font-size: 12px;
-    line-height: 1.5;
-    padding: 21px 42px;
-}
-
-.btn-info {
-    background-color: #ab211f;
-    border-color: #ab211f;
-    color: #fff;
 }
 
 .footer_btn2 {
@@ -409,6 +427,11 @@ li span {
 
 .footer_btn {
     float: left;
+    padding-bottom: 22px;
+}
+
+.footer_pad {
+    padding: 0 6.6%;
 }
 
 
@@ -420,7 +443,7 @@ li span {
 
 .copy {
     background-color: #03141c;
-    padding: 10px 4px 2px 16px;
+    padding: 13px 5px 5px 16px;
 }
 
 .copy>p {
@@ -432,4 +455,8 @@ li span {
 
 .col-md-12.cp-lft {
     padding: 0;
+}
+
+.copy_pad {
+    padding: 0 6.6%;
 }
